@@ -32,7 +32,7 @@ Memory copy only 100 bytes and can check byte by byte addresses in memory");
     memmove(b, a, sizeof(b));
 
     #else
-    // Copy data from one memory 100 byte block to another with FOR loop
+    // Copy 100 bytes from a array to b with FOR loop
     for (i = 0; i < 100; i++){
         b[i] = a[i];
     }
