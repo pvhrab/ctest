@@ -8,4 +8,4 @@ You can uncomment #define USE_MEMMOVE and use move data memory from a array to b
 
 File main.c is C base language code.
 
-File main.s is assembled code
+File main.s is assembled x86_64 Intel code
