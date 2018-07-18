@@ -42,7 +42,7 @@ Memory copy only 100 bytes and can check byte by byte addresses in memory");
     b[sizeof(b)] = 0;
     printf("%s\n", b);
 
-    // block for test results
+    // block for debug and test results
     // print addresses of each array index
     do {
         printf("b[%u] = %p\n", i, (void *)(&b[i]));
